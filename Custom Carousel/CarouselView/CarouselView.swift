@@ -52,7 +52,6 @@ class CarouselView: UIView {
         mainView.autoresizingMask = [.flexibleHeight, .flexibleWidth]
         addSubview(mainView)
         scrollView.delegate = self
-        scrollView.decelerationRate = .fast
         scrollView.isPagingEnabled = true
     }
 
